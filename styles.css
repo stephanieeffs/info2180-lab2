@@ -8,7 +8,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: auto auto 1fr auto;
   grid-gap: 20px;
   max-width: 1200px;
@@ -24,7 +24,7 @@ header {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
@@ -42,6 +42,7 @@ header h1 {
 
 header p {
   font-size: 18px;
+  margin-top: 10px;
 }
 
 main {
@@ -50,6 +51,8 @@ main {
 
 article {
   margin-bottom: 40px;
+  border-bottom: 1px solid #E2E8F0; 
+  padding-bottom: 20px;
 }
 
 article h2 {
@@ -60,6 +63,7 @@ article h2 {
 .post-meta {
   color: #718096;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 article img {
@@ -85,6 +89,7 @@ aside h3 {
 .about-section {
   background-color: #E2E8F0;
   padding: 15px;
+  border-radius: 5px;
 }
 
 .social-media h3, .archives h3 {
