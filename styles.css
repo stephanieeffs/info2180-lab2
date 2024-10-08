@@ -10,6 +10,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
